@@ -1,6 +1,6 @@
 # generics
 
-[![GoDoc](https://img.shields.io/badge/pkg.go.dev-doc-blue)](http://pkg.go.dev/github.com/cneill/generics)
+[![Go Reference](https://pkg.go.dev/badge/github.com/cneill/generics.svg)](https://pkg.go.dev/github.com/cneill/generics)
 
 This package adds some cool functions that have been enabled by the addition of
 [generics](https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md)
