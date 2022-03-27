@@ -141,3 +141,9 @@ func TestTransformSliceErrStringToBool(t *testing.T) {
 		}
 	}
 }
+
+func ExampleTransformSliceErr() {
+	ints, _ := generics.TransformSliceErr([]string{"1", "2", "3"}, strconv.Atoi)
+	fmt.Printf("%#v\n", ints)
+	// Output: []int{1, 2, 3}
+}
