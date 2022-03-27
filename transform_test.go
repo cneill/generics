@@ -94,7 +94,7 @@ func TestTransformSliceErrStringToInt(t *testing.T) {
 
 		switch {
 		case err != nil && test.errors == false:
-			t.Errorf("function returned error when it shouldn't have")
+			t.Errorf("function returned error when it shouldn't have: %v", err)
 		case err == nil && test.errors == true:
 			t.Errorf("function did not return error when it should have")
 		case len(result) != len(test.result):
@@ -127,7 +127,7 @@ func TestTransformSliceErrStringToBool(t *testing.T) {
 
 		switch {
 		case err != nil && test.errors == false:
-			t.Errorf("function returned error when it shouldn't have")
+			t.Errorf("function returned error when it shouldn't have: %v", err)
 		case err == nil && test.errors == true:
 			t.Errorf("function did not return error when it should have")
 		case len(result) != len(test.result):
