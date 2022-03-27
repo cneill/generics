@@ -28,7 +28,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -----------------------
 
 TransformSlice modified lightly from the Map example here:
-  https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md#function-argument-type-inference
+  https://github.com/golang/proposal/blob/master/design/43651-type-parameters.md#function-argument-type-inference
 
 License:
 
